@@ -1,0 +1,36 @@
+<nav class=" navbar navbar-expand-md navbar-dark bg-dark bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button"
+    data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <a class="navbar-brand" href="#">
+    <img src="assets/img/favicon.png" width="30" height="30" alt="">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <!-- active -->
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['home']">Home</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['coches']">Coches</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['about']">About</a>
+      </li>
+    </ul>
+  </div>
+
+    <form class="d-flex">
+      <input class="form-control me-2" type="search"
+      placeholder="Buscar coche" #buscarTexto
+      (keyup.enter)="buscarCoche(buscarTexto.value)">
+      <button (click)="buscarCoche(buscarTexto.value)"
+      class="btn btn-outline-primary" type="submit">Buscar</button>
+    </form>
+
+
+</nav>

@@ -1,0 +1,12 @@
+.card {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+
+.card2 {
+  margin-bottom: 80px;
+  width: 80%;
+}
+
+

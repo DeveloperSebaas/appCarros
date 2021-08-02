@@ -1,0 +1,14 @@
+<h1>Buscando: <small>{{termino}}</small></h1>
+<hr>
+<div class="row animated fadeIn" *ngIf="coches.length ===0">
+  <div class="col-md-12">
+    <div class="alert alert-danger" role="alert">
+      No existen resultados con el termino: {{termino}}
+    </div>
+  </div>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4" >
+  <app-coche-tarje [coche]="item" [index]="item.idx"
+  *ngFor="let item of coches; let i= index"></app-coche-tarje>
+</div>

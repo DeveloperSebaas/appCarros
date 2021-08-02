@@ -1,0 +1,14 @@
+<div class="col animated fadeIn">
+  <div class="card h-100">
+    <img [src]="coche.img" class="card-img-top" [alt]="coche.nombre">
+    <div class="card-body">
+      <h5 class="card-title">{{ coche.nombre }}</h5>
+      <p class="card-text"> {{ coche.bio }} </p>
+      <p class="card-text">{{ coche.aparicion }}</p>
+      <button (click)="verCoche()"
+      type="button" class="btn btn-outline-primary btn-block">
+      Ver más...
+    </button>
+    </div>
+  </div>
+</div>

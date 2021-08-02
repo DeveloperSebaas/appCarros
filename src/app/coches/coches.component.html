@@ -1,0 +1,8 @@
+<h1>Coches</h1>
+
+<div class="row row-cols-1 row-cols-md-3 g-4" >
+  <app-coche-tarje (cocheSeleccionado)="verCoche( $event)"
+  [coche]="item" [index]="i" *ngFor="let item of coches; let i= index"></app-coche-tarje>
+</div>
+
+<!-- $event Mandar el index del boton seleccionado  -->
