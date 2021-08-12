@@ -1,27 +1,10 @@
-# Coches
+# appCoches
+## Aplicación web de stock de carros y búsqueda de vehículos.
+Tecnologías: Angular, TypeScript, HTML y Bootstrap.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![appCarros](https://user-images.githubusercontent.com/87955722/129132107-082b0515-c654-474e-860e-cfe5f706bdc4.png)
+![appCarros2](https://user-images.githubusercontent.com/87955722/129132223-1e1633b6-8b83-4f98-99e8-6368ac8d462f.png)
+![appCarros3](https://user-images.githubusercontent.com/87955722/129132270-72e0959d-dc6b-4e04-86e4-bb90aa396ea2.png)
+![appCarros4](https://user-images.githubusercontent.com/87955722/129132312-d6220f92-d739-40c1-b370-e24b3a93ab43.png)
+![appCarros5](https://user-images.githubusercontent.com/87955722/129132370-2695aaee-89e2-406e-8bbf-1278d2b3f6e5.png)
+![appCarros6](https://user-images.githubusercontent.com/87955722/129132428-a6dfa9e6-ff16-4344-8e50-b62ea3c5bd6c.png)
